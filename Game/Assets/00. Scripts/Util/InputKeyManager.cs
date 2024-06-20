@@ -45,4 +45,14 @@ public static class InputKeyManager
 
         return false;
     }
+
+    public static bool GetKeyUp(Key key)
+    {
+        if (keys.TryGetValue(key, out KeyCode outKeyCode))
+        {
+            return Input.GetKeyUp(outKeyCode);
+        }
+
+        return false;
+    }
 }
