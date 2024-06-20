@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //For Running Test Codes
+    [SerializeField]
+    PlayerTest playerTest;
+    
     void Update()
     {
         
