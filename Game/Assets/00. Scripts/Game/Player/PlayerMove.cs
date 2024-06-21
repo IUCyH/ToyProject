@@ -6,13 +6,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField]
-    float walkSpeed;
     float speed;
-
-    void Start()
-    {
-        speed = walkSpeed;
-    }
 
     public void Move(Vector3 dir)
     {
